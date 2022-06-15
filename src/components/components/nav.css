@@ -1,0 +1,22 @@
+nav{
+    color: red;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    height: 50px;
+    font-size: larger;
+    font-weight: 900;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.imageTag{
+    height: 80px;
+    width: 150px;
+}
+.topNav{
+    display: flex;
+    flex-direction: row;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import me from "./me.jpg";
 const About = () => {
+  console.log("rendered");
   return (
     <>
       <div className="container-contact" id="about">

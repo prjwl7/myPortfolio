@@ -12,18 +12,16 @@ h1{
     font-size: smaller;
 }
 .me-image{
-    height: 40vh;
-    width: 20vw;
+    margin-top: 10px;
+    height: 45vh;
+    width: 25vw;
     border: 2px solid yellow;
     box-shadow: 0 0 0 2px red;
     border-radius: 50%;
 }
-.about-me{
-    margin-left: 1%;
-}
+
 .about-me-me{
     margin-top: 10px;
-    margin-left: 20px;
     color: white;
     transition: 1s ease;
     padding: 2px;
@@ -36,7 +34,7 @@ h1{
 }
 .about-me-2{
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 30px;
     color: white;
     transition: 1s ease;
 }
@@ -44,7 +42,7 @@ h1{
     color: rgb(203, 241, 50);
 }
 .about-me-3{
-    margin-left: 50px;
+    margin-left: -30px;
     color: white;
     transition: 1s ease;
     margin-top: 10px;
@@ -53,7 +51,7 @@ h1{
     color: deepskyblue;
 }
 .about-me-4{
-    margin-left: 10px;
+    margin-left: -100px;
     color: white;
     transition: 1s ease;
     margin-top: 10px;
@@ -63,7 +61,7 @@ h1{
 }
 
 .about-me-5{
-    margin-left: -150px;
+    margin-left: -200px;
     color: white;
     transition: 1s ease;
     margin-top: 10px;

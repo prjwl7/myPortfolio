@@ -1,42 +1,23 @@
 import About from "./components/about/about";
 import Main from "./components/main/main";
-import Navbar from "./components/navbar.js/navbar";
 import Skills from "./components/skills/Skills";
-import { scroller } from "react-scroll";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import NavBar from "./components/components/NavBar";
+import Project from "./components/projects/Project";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Contact from "./components/contact/Contact";
 function App() {
-  const scrollToHome = () => {
-    scroller.scrollTo("home", {
-      duration: 1000,
-      smooth: true,
-    });
-  };
-  const scrollToAbout = () => {
-    scroller.scrollTo("about", {
-      duration: 1000,
-      smooth: true,
-    });
-  };
-  const scrollToSkills = () => {
-    scroller.scrollTo("skills", {
-      duration: 1000,
-      smooth: true,
-    });
-  };
-  const scrollToProjects = () => {
-    scroller.scrollTo("projects", {
-      duration: 1000,
-      smooth: true,
-    });
-  };
   return (
     <>
-      <Skills />
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route exact path="/" element={<Main />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/skills" element={<Skills />}></Route>
+          <Route exact path="/projects" element={<Project />}></Route>
+          <Route exact path="/contact" component={<Contact />}></Route>
+        </Routes>
+      </Router>
     </>
   );
 }
