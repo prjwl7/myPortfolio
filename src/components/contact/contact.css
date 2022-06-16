@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fascinate&family=Poppins:ital,wght@1,800&display=swap');
+body{
+    background-color: black;
+}
+.containers{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 130px;
+    row-gap: 2rem;
+}
+.getIn {
+    color: white;
+    font-family: 'Fascinate', cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    transition: 1s ease;
+}
+.email, .contact{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    transition: 1s ease;
+}
+.getIn:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+.section2{
+    margin-left: 200px;
+}
+.emails{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(174, 241, 102);
+    box-shadow: 0 0 5px rgb(192, 245, 70);
+}
+
+.name{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(174, 241, 102);
+    box-shadow: 0 0 5px rgb(192, 245, 70);
+}
+
+.message{
+    height: 200px;
+    width: 400px;
+    text-align: start;
+    border: 2px solid rgb(174, 241, 102);
+    box-shadow: 0 0 5   px rgb(192, 245, 70);
+}
+
+.send{
+    position: relative;
+    margin-left: 160px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color:black ;
+    border-radius: 20px;
+}
